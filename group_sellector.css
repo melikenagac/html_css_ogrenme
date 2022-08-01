@@ -1,0 +1,25 @@
+p{
+    color: brown;
+   /* tüm paragrafın rengini değiştir. */ 
+}
+div p{
+    color: aquamarine;
+    /*div içinde olan p etiketleri rengi değştir.*/
+}
+.contanier{
+    color: beige;
+    /* container sınıfının rengi değştir.*/
+}
+.contanier div{
+    color: aqua;
+    /*sadece container içindeki divler sınıfırengi değiştri.*/
+}
+
+div,p{
+color: aquamarine;
+    /*tüm div ve tüm p etiketleri*/
+}
+p+div {
+    color: blue;
+   /* pden sonra gelen div etiketi*/
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+        }
+
+        #kutu1 {
+            background-color: lightblue;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        #kutu2 {
+            background-color: lightcoral;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+
+        #kutu3 {
+            background-color: lavender;
+            position: relative;
+            top: 50px;
+            left: 50px;
+
+        }
+        #kutu4{
+            background-color: lightgreen;
+            width: 100%;
+            position: sticky;
+            top:0
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kutu" id="kutu1">kutu1</div>
+    <div class="kutu" id=kutu2>kutu2</div>
+    <div class="kutu" id="kutu3">kutu3</div>
+    <div class="kutu" id=kutu4>kutu4 </div>
+    position relative KUTUNUN başlangıç noktasından ileri attırır.
+    posıtıon absolute SAYFANIN başlangıç noktasından ileri attırır.
+    position fixed sayfaya monte olur. bottom ve right kullandık.
+    posıtıon sticky yer değiştirmez. menü barda kullanılırç aşağı doğru inse de gitmez.
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+h2[title="baslik1"] {
+color: aqua;
+}
+p[title="paragraf1"]{
+    color: blue;
+}
+
+/*title ı paragraf 1 olanın rengini değşştir.*/
+/*pseudo element*/
+p::first-line{
+    color: aqua;
+}
+p::first-letter{
+    font-size: 50px;
+}
+
+/*pseudo class*/
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: blueviolet;
+}
+a:visited{
+    color: beige;
+}
+a:hover{
+    color: blueviolet;
+    background-color: azure;
+}
